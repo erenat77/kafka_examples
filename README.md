@@ -14,6 +14,8 @@ conda install -c conda-forge kafka-python
 ```bash
 kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic numtest
 ```
-
+## Example-1
 * In our example, we’ll create a producer that emits numbers from 1 to 1000 and send them to our Kafka broker. Then a consumer will read the data from the broker and store them
 
+## Example-2
+*  We will consume JSON Messages From Kafka Using Kafka-Python’s Deserializer
